@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 * {
     color: aliceblue;
 }
@@ -5,7 +8,6 @@
 body {
     background-color: #0e254e;
     margin: 0;
-    height: 200vh;
 }
 
 header {
@@ -45,18 +47,25 @@ nav span {
     transition: 0.25s ease-in-out;
 }
 
+nav #counter {
+    bottom: 15vh;
+    color: #0e254e;
+    cursor: default;
+    right: 5vh;
+}
+
 nav span a {
     color: #0e254e;
     text-decoration: none;
     font-weight: 600;
 }
 
-nav span:hover {
+nav #top:hover {
     background-color: #24498a;
     bottom: 6vh;
 }
 
-nav span:hover a { 
+nav #top:hover a { 
     color: aliceblue;
 }
 
