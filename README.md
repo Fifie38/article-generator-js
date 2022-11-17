@@ -1,2 +1,2 @@
-# make-cute-website
- Petit projet html css js pour rendre plus mignon son site web
+# article-generator-js
+ Petit projet html css js qui génère des articles lorsqu'un bouton est pressé
